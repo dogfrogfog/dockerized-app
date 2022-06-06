@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - .:/dockerized-app
+    ports:
+      - 3000:3000
+    image: app:dockerized-app
+    container_name: dockerized_app_container
+    command: npm run start

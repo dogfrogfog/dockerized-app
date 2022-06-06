@@ -1,0 +1,10 @@
+.search-panel {
+  width: 300px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  font-size: 20px;
+}
