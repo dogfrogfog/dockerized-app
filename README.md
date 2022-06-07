@@ -6,3 +6,4 @@
 - add kubernates integration
 - remove comments
 - add multistage docker build
+- add manual to use
