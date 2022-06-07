@@ -5,3 +5,4 @@
 - add integration with db (postgres, postgraphile, hasura)
 - add kubernates integration
 - remove comments
+- add multistage docker build
