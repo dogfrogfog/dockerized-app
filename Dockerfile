@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:18-alpine AS builder
 
 WORKDIR /d-app
 
@@ -15,3 +15,9 @@ COPY . .
 # RUN npm run build
 
 CMD ["npm", "start"]
+
+# multistage build to serve static (420mb vs 24mb)
+
+# FROM nginx:alpine
+
+# COPY --from=builder /d-app/build /usr/share/nginx/html
