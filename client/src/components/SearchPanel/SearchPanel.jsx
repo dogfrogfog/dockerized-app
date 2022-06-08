@@ -9,8 +9,6 @@ export const SearchPanel = ({ setSearchResults }) => {
       `http://localhost:8080/api/fruits?amount=${value}`
     );
 
-    console.log(data);
-
     setSearchResults(data);
   }, [setSearchResults]);
 

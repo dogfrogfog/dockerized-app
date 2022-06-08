@@ -2,6 +2,22 @@ version: "3.8"
  
 services:
   d-client:
-    image: app:dockerized-app
+    image: d-client
+    # ?
+    # stdin_open: true
+    ports:
+      - 3000:3000
+    depends_on:
+      - d-server
+    # networks:
+      # - client-server-net
   d-server:
-    image:
+    image: d-server
+    ports:
+      - 8080:8080
+    # networks:
+      # - client-server-net
+# default behaviour 
+# networks:
+  # client-server-net:
+    # driver: bridge 
