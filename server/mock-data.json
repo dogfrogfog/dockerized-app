@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "src": "https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg",
+      "id": 1
+    },
+    {
+      "src": "https://www.howtogeek.com/wp-content/uploads/2021/10/1-red-apple.png?trim=1,1&bg-color=000&pad=1,1",
+      "id": 2
+    },
+    {
+      "src": "https://abekker.by/uploads/catalog_products/grusha-medovaya_1.jpg",
+      "id": 3
+    }
+  ]
+}

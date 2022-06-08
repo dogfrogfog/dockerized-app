@@ -14,6 +14,9 @@ COPY . .
 
 # RUN npm run build
 
+# to give server acces to 8080 port of the container
+EXPOSE 8080
+
 CMD ["npm", "start"]
 
 # multistage build to serve static (420mb vs 24mb)
