@@ -6,4 +6,3 @@
 - add kubernates integration
 - remove comments
 - add manual to use
-- add native node js server
