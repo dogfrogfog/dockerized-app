@@ -9,7 +9,7 @@ export const SearchPanel = ({ setSearchResults }) => {
       `http://localhost:8080/api/fruits?amount=${value}`
     );
 
-    setSearchResults(data);
+    setSearchResults((prevData) => [...prevData, data]);
   }, [setSearchResults]);
 
   return (
